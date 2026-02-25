@@ -24,7 +24,7 @@ export const medias = [
     id: 4,
     description: "Ou télécharger mon CV !",
     media: "CV",
-    linkto: "./src/assets/MediasContact/LECLERC_ANTONY_resume.pdf",
+    linkto: "./MediasContact/LECLERC_ANTONY_resume.pdf",
     image: "./MediasContact/cv_icon.png",
     dl: true,
   },
