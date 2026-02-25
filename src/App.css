@@ -52,9 +52,11 @@
   transition: transform 0.3s ease;  
 }
 
-.projet:hover{
+@media (hover: hover){
+  .projet:hover{
   transform: rotateZ(3deg);
   cursor: pointer;
+}
 }
 
 .contact{
