@@ -7,7 +7,7 @@ export const projects = [
       "Site portfolio pour me présenter et présenter mes différents projets, qu'ils soient universitaires ou non.",
     ],
     stack: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vite", "pnpm"],
-    image: "./src/assets/ProjectsImages/portfolio.png",
+    image: "/ProjectsImages/portfolio.png",
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ export const projects = [
       "Deep Learning",
       "Modèles de diffusion",
     ],
-    image: "./src/assets/ProjectsImages/deepfake.png",
+    image: "/ProjectsImages/deepfake.png",
   },
   {
     id: 2,
@@ -49,6 +49,6 @@ export const projects = [
       "Machine Learning",
       "Deep Learning",
     ],
-    image: "./src/assets/ProjectsImages/loto.png",
+    image: "/ProjectsImages/loto.png",
   },
 ];
