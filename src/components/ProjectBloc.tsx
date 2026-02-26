@@ -12,6 +12,7 @@ export type ProjectData = {
   desc: string[];
   stack: string[];
   image?: string; // path to img
+  gh_link?: string;
 };
 
 export default function ProjetBloc() {

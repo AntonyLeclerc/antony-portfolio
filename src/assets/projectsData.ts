@@ -8,6 +8,7 @@ export const projects = [
     ],
     stack: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vite", "pnpm"],
     image: "./ProjectsImages/portfolio.png",
+    gh_link:"https://github.com/AntonyLeclerc/antony-portfolio",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ export const projects = [
       "Modèles de diffusion",
     ],
     image: "./ProjectsImages/deepfake.png",
+    gh_link:"https://github.com/AntonyLeclerc/Stage",
   },
   {
     id: 3,
@@ -53,5 +55,6 @@ export const projects = [
       "Deep Learning",
     ],
     image: "./ProjectsImages/loto.png",
+    gh_link:"https://github.com/AntonyLeclerc/ProjetLoto",
   },
 ];

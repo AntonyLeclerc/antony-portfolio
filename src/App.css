@@ -109,6 +109,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 5px;
 }
 
 .icon_n_media{
@@ -176,4 +177,8 @@
 
 #project_bloc>hr{
   width: 100%;
+}
+
+.toGithub{
+  margin-bottom: 5px;
 }

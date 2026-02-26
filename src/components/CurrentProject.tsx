@@ -12,14 +12,23 @@ export default function CurrentProject({ data }: CurrentProjProps) {
     <div id="current_project">
       <div id="descriptive_text">
         <h2>
-          {data.context} - <a href={data.website} target="_blank">{data.location}</a>
+          {data.context} -{" "}
+          <a href={data.website} target="_blank">
+            {data.location}
+          </a>
         </h2>
         {data.desc.map((item, index) => (
           <p key={index}>{item}</p>
         ))}
-              
-        {data.exemple && <h4>Un exemple <a href={data.exemple}>ici</a></h4>}
+        {data.exemple && (
+          <h4>
+            Un exemple <a href={data.exemple}>ici</a>
+          </h4>
+        )}
         <hr />
+        <div className="toGithub">
+          Voir sur : <a href={data.gh_link}>Github</a>.
+        </div>
         Stack utilisée :
         <div id="technos_proj">
           {data.stack.map((item, index) => (
