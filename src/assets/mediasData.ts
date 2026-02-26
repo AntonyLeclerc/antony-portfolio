@@ -3,7 +3,7 @@ export const medias = [
     id: 1,
     description: "Vous pouvez me retrouver sur Linkedin",
     media: "Linkedin",
-    linkto: "https://www.linkedin.com/in/antony-leclerc-44848b255/",
+    linkto: "https://www.linkedin.com/in/antony-leclerc/",
     image: "./MediasContact/linkedin.png",
   },
   {
