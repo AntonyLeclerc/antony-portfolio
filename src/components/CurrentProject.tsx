@@ -27,7 +27,7 @@ export default function CurrentProject({ data }: CurrentProjProps) {
           ))}
         </div>
       </div>
-      <img id="descriptive_image" src={data.image} alt={data.name} />
+      <img id="descriptive_image" src={data.image} alt={data.context} />
     </div>
   );
 }
