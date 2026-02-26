@@ -15,8 +15,13 @@ export default function Project({ project, onSelect, currProjId }: Projet) {
       }}
     >
       <div className="vignette">
-        <img src={project.image} alt={project.name} />
-        <span>{project.name}</span>
+        <img src={project.image} alt={project.context} />
+
+        {typeof project.name === "object" ? ( // Assuming object is forced to be string[]
+          project.name.map((item, index) => <span key={index}>{item}</span>)
+        ) : (
+            <span>{project.name}</span>
+        )}
       </div>
     </div>
   );

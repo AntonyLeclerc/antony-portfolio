@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 3,
+    id: 1,
     name: "Site portfolio",
     context: "Projet perso présentation",
     desc: [
@@ -10,8 +10,8 @@ export const projects = [
     image: "./ProjectsImages/portfolio.png",
   },
   {
-    id: 1,
-    name: "Deepfakes",
+    id: 2,
+    name: ["Deepfakes", "Stage de fin d'études"],
     context: "Stage de fin d'études de M2",
     location: "IRCAM",
     website: "https://www.ircam.fr/",
@@ -32,8 +32,11 @@ export const projects = [
     image: "./ProjectsImages/deepfake.png",
   },
   {
-    id: 2,
-    name: "LOTO",
+    id: 3,
+    name: [
+      "LOTO",
+      "Projet et Stage de M1"
+    ],
     context: "Projet de recherche de M1 suivi d'un stage",
     location: "LIP 6",
     website: "https://www.lip6.fr/",

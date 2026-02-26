@@ -2,10 +2,9 @@ import { useState } from "react";
 import CurrentProject from "./CurrentProject";
 import ProjectsGrid from "./ProjectsGrid";
 
-
 export type ProjectData = {
   id?: number;
-  name?: string;
+  name: string | string[];
   context?: string;
   location?: string;
   website?: string;
@@ -17,7 +16,7 @@ export type ProjectData = {
 
 export default function ProjetBloc() {
   const [currProj, setCurrProj] = useState<ProjectData | null>(null);
-  
+
   return (
     <div id="project_bloc">
       <h2>Mes projets :</h2>
