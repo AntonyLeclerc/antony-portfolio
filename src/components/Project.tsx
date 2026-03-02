@@ -20,7 +20,9 @@ export default function Project({ project, onSelect, currProjId }: Projet) {
         {typeof project.name === "object" ? ( // Assuming object is forced to be string[]
           project.name.map((item, index) => <span key={index}>{item}</span>)
         ) : (
-            <span>{project.name}</span>
+            <span onClick={() => (
+              console.log(project.image)
+          )}>{project.name}</span>
         )}
       </div>
     </div>

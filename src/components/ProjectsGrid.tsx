@@ -1,6 +1,8 @@
 import Project from "./Project";
 import type { ProjectData } from "./ProjectBloc";
+
 import { projects } from "../assets/projectsData";
+//import { projects } from "../local_dev/projectsData";
 
 type ProjectsGridProps = {
   setCurrProj: (proj: ProjectData | null) => void;
