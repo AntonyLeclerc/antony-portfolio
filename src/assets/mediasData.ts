@@ -11,7 +11,7 @@ export const medias = [
     description: "Parcourir mes projets sur Github",
     media: "Github",
     linkto: "https://github.com/AntonyLeclerc",
-    image: "./MediasContact/github.png",
+    image: `${import.meta.env.BASE_URL}MediasContact/github.png`,
   },
   {
     id: 3,
