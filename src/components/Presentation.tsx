@@ -1,4 +1,4 @@
-import { medias } from "../assets/mediasData"
+import { medias } from "../data/mediasData"
 //import { medias } from "../local_dev/mediasData"
 
 import Media from "./Media";
