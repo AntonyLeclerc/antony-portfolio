@@ -2,13 +2,15 @@ export const projects = [
   {
     id: 4,
     name: "Détecteur d'émotions",
-    context: "Détecteur d'émotions",
+    context: "Détections d'émotions à travers un flux vidéo.",
     desc: [
-      "Détections d'émotions à travers un flux vidéo."
+      "Projet en vision par ordinateur utilisant un réseau de neurones convolutionnel pour la détection d'émotions sur un visage humain.",
+      "Entraîné sur un ensemble de données de 44.000 images sur Kaggle (License: Open Database), sur des images de dimension (48x48), réparties en 7 émotions (Colère / Dégoût / Peur / Joyeux / Neutre / Triste / Surpris).",
+      "Lecture en direct d'un flux vidéo (webcam ou vidéo), détection des visages à l'aide d'OpenCV et passage de tous les visages détectés pour déterminer leur émotion."
     ],
     stack: ["Python","PyTorch", "opencv-python"],
     image: "./ProjectsImages/emotions.png",
-    gh_link:"https://github.com/AntonyLeclerc/antony-portfolio",
+    gh_link:"https://github.com/AntonyLeclerc/Emotions-detector",
   },
   {
     id: 1,
