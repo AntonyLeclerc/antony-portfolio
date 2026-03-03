@@ -32,7 +32,7 @@ export const projects = [
     exemple: "http://youtu.be/P-hiO4Kpcd0",
     desc: [
       "Mise en place d'une pipeline permettant la génération d'un Deepfake audio et vidéo d'une personnalité Française, pour permettre par la suite l'entraînement d'autres réseaux de neurones destinés à détecter si une vidéo d'une personnalité est réelle ou non.",
-      "Utilisation d'outils de l'état de l'art pour l'animation de l'image, la modification de voix, et la synchronisation labiale. Entraînement de modèles destinés à transformer une voix pilote en une voix cible, puis amélioration de l'image par un modèle de diffusion avec pytorch.",
+      "Utilisation d'outils de l'état de l'art pour l'animation de l'image, la modification de voix, et la synchronisation labiale. Entraînement de modèles destinés à transformer une voix pilote en une voix cible, puis amélioration de l'image par un modèle de diffusion avec pytorch. Jusqu'à 75% de bonne précision pendant l'entraînement du modèle",
       "Evaluation objective du réalisme des deepfakes avec d'autres outils de l'état de l'art comme insightface et des métriques utilisant la similarité cosinus. Résultat de l'ordre de 50% de réalisme puis 60% après diffusion.",
     ],
     stack: [

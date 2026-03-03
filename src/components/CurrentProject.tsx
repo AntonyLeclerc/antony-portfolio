@@ -12,7 +12,7 @@ export default function CurrentProject({ data }: CurrentProjProps) {
     <div id="current_project">
       <div id="descriptive_text">
         <h2>
-          {data.context} -{" "}
+          {data.context} {data.location ? '- ' : ''}
           <a href={data.website} target="_blank">
             {data.location}
           </a>
