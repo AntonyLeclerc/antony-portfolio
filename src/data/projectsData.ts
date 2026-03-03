@@ -1,5 +1,16 @@
 export const projects = [
   {
+    id: 4,
+    name: "Détecteur d'émotions",
+    context: "Détecteur d'émotions",
+    desc: [
+      "Détections d'émotions à travers un flux vidéo."
+    ],
+    stack: ["Python","PyTorch", "opencv-python"],
+    image: "./ProjectsImages/emotions.png",
+    gh_link:"https://github.com/AntonyLeclerc/antony-portfolio",
+  },
+  {
     id: 1,
     name: "Site portfolio",
     context: "Projet perso présentation",
@@ -56,5 +67,5 @@ export const projects = [
     ],
     image: "./ProjectsImages/loto.png",
     gh_link:"https://github.com/AntonyLeclerc/ProjetLoto",
-  },
+  }
 ];
